@@ -5,7 +5,7 @@ import Chart from "react-apexcharts";
 import AskBank from './AskBank';
 
 
-// var base = new Airtable({apiKey: 'keyjVpG4zXCD49VfC'}).base('apprF45aHSyfT4Xl8');
+// var base = new Airtable({apiKey: 'keyjVpG4zXCD49'}).base('apprF45aHSyfT4Xl8');
 
 
  
@@ -142,7 +142,7 @@ class LoanPost extends Component {
   'Access-Control-Allow-Headers': 'Content-Type',
 
 };
-      var data = JSON.stringify({"username":"consistengolf1@gmail.com","password":"Magazine1!"});
+      var data = JSON.stringify({"username":"youruser@gmail.com","password":"Magazine1!"});
 
 var config = {
   method: 'post',
@@ -180,7 +180,7 @@ var config = {
 
   var config = {
   method: 'post',
-  url: 'https://nlapi.expert.ai/v2/analyze/standard/en/entities',
+  url: 'https://api.fusionfabric.cloud/referential/v1/countries',
   headers: { 
       
     'Authorization': 'Bearer eyJraWQiOiI1RDVOdFM1UHJBajVlSlVOK1RraXVEZE15WWVMMFJQZ3RaUDJGTlhESHpzPSIsImFsZyI6IlJTMjU2In0.eyJjdXN0b206Y291bnRyeSI6IlBIIiwic3ViIjoiOTdmNTA0OWYtZDBmNC00MDRmLTg5N2MtM2RkMzhjYWExODRiIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImN1c3RvbTpwZXJzb25hbGl6YXRpb25BdXRoIjoiMSIsImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC5ldS13ZXN0LTEuYW1hem9uYXdzLmNvbVwvZXUtd2VzdC0xX0FVSGdRMDhDQiIsImNvZ25pdG86dXNlcm5hbWUiOiI5N2Y1MDQ5Zi1kMGY0LTQwNGYtODk3Yy0zZGQzOGNhYTE4NGIiLCJjdXN0b206Y29tcGFueSI6ImtvcnZlciIsImF1ZCI6IjVraDljMG1vY25qOTIzcWRjanNrMzc4c3ZoIiwiZXZlbnRfaWQiOiIxZWI3NTcyMC02NGE5LTQ1OWYtYWU3OC04M2NiMWY4ZDIwZWYiLCJ0b2tlbl91c2UiOiJpZCIsImF1dGhfdGltZSI6MTYxNDIzMTI5MSwibmFtZSI6ImZyYXMiLCJleHAiOjE2MTQzMTc2OTEsImlhdCI6MTYxNDIzMTI5MiwiZmFtaWx5X25hbWUiOiJzaWx2IiwiZW1haWwiOiJjb25zaXN0ZW5nb2xmMUBnbWFpbC5jb20iLCJjdXN0b206bWFya2V0aW5nQXV0aCI6IjEifQ.OdycqmOwZxWpLczEQYkD5S6lW9Sy56a6Xtna6YqC0OpqrBLDifdtyNNKYoqZmI9vkNkGotUCWwtAyeI3R1P3TCngNbG5jdH4XnDu_4fn8DnXSdtyDEVtX6tgf2X-6pi5OenWRVbVzUyhOj6DFWrhjxYQah4HMbvuTnYFgcHwh4CCk3cYrCKTYwPydeCjvdV6t5bcvA-x35QppoAa-gkOd7mdSPunKxGC7Ti9g8hCLEnUeAefXiN1vg0_hPDXCAQLEfpA7XYJGE-j8hwHAYEJQDxycvcKQ8ZIBl4XW-UBM985eZoX64AONQ4RjQHUTrSFfizndLukhdEVcJi_pwyqgw' , 
@@ -293,7 +293,7 @@ var config = {
 
     this.setState({isSubmitted: true});
     // submit airtable
-    // base('car').create([
+    // base('ca').create([
     //   {
     // "fields": {
     //   "Name": this.state.name,
